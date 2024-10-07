@@ -17,13 +17,13 @@ generation_config_cook = {
 
 # API KEYS
 # Gemini Ai API KEY
-API_KEY= os.environ['API_KEY']
+API_KEY= os.environ['API_KEY', 'AIzaSyAyd3ZBymB8vMbvvX1fgcls818_eW5-Up4']
 # Telegram Auth API ID
-API_ID = os.environ['API_ID']
+API_ID = os.environ['API_ID', '28776072']
 # Telegram Auth API HASH
-API_HASH = os.environ['API_HASH']
+API_HASH = os.environ['API_HASH', 'b3a786dce1f4e7d56674b7cadfde3c9d']
 # Telegram Bot API TOKEN generated from @botfather
-BOT_TOKEN = os.environ['BOT_TOKEN']
+BOT_TOKEN = os.environ['BOT_TOKEN', '8176501478:AAEjTtsFgPyJghTSIVNrcSKS4FnBNvK9U30']
 
 # configure API KEY for gemini 
 genai.configure(api_key=API_KEY)
